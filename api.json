@@ -1,0 +1,353 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/pope-lick-monster",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "pope-lick-monster",
+    "name": "Pope Lick Monster",
+    "aliases": [
+      {
+        "name": "Goat Man of Pope Lick",
+        "region": "Kentucky, USA",
+        "meaning": "Alternative name emphasizing goat-like features"
+      }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Urban Legend",
+    "tags": [
+      "humanoid",
+      "goat-man",
+      "kentucky",
+      "urban-legend",
+      "dangerous",
+      "railroad-trestle",
+      "real-deaths",
+      "satyr-like"
+    ],
+    "status": "urban_legend",
+    "description": {
+      "summary": "A goat-man creature from Louisville, Kentucky, said to lure people onto an active railroad trestle at Pope Lick Creek. The legend has resulted in multiple real deaths from trespassing on the dangerous bridge.",
+      "full": "The Pope Lick Monster is an urban legend from Louisville, Kentucky, centered on a railroad trestle over Pope Lick Creek. Described as a human-goat hybrid with a human body, goat head, horns, and fur-covered legs, the creature allegedly lures people onto the active train trestle using hypnosis, voice mimicry, or by chasing them with a bloody axe. While the creature itself is legendary, the danger is very real: the trestle is an active railroad bridge, and multiple people have been killed by trains while trespassing to search for the monster. Deaths have been documented since at least 1987, making this one of the most dangerous urban legends in America. Origin theories include an escaped circus freak, a reincarnated farmer, or a victim of Satanic rituals. The legend serves as a tragic example of how folklore can lead to real-world harm."
+    },
+    "etymology": {
+      "origin": "Named after Pope Lick Creek in Louisville, Kentucky, combined with 'Monster'",
+      "meaning": "Monster of Pope Lick Creek",
+      "first_use": "Unknown, local legend"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Urban Legend",
+      "subtype": "Humanoid/Satyr",
+      "variant": "American Goat-Man"
+    },
+    "related_phenomena": [
+      {
+        "id": "goatman",
+        "name": "Goatman",
+        "relationship": "similar",
+        "description": "Goat-human hybrid from Maryland"
+      },
+      {
+        "id": "satyr",
+        "name": "Satyr",
+        "relationship": "mythological_parallel",
+        "description": "Greek mythological goat-human hybrid"
+      },
+      {
+        "id": "jersey-devil",
+        "name": "Jersey Devil",
+        "relationship": "similar",
+        "description": "Regional American cryptid legend"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": null,
+        "max": null,
+        "unit": "meters",
+        "confidence": "unknown"
+      },
+      "weight": {
+        "min": null,
+        "max": null,
+        "unit": "kilograms",
+        "confidence": "unknown"
+      },
+      "coloration": [
+        "unknown"
+      ],
+      "features": [
+        {
+          "feature": "Head",
+          "description": "Goat head with horns",
+          "frequency": "always"
+        },
+        {
+          "feature": "Body",
+          "description": "Human body structure",
+          "frequency": "always"
+        },
+        {
+          "feature": "Legs",
+          "description": "Fur-covered legs, possibly goat-like",
+          "frequency": "always"
+        },
+        {
+          "feature": "Horns",
+          "description": "Goat-like horns on head",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Human-goat hybrid with human torso and arms, goat head with horns, and fur-covered legs. Classic satyr-like appearance."
+    },
+    "abilities": [
+      {
+        "ability": "Hypnosis",
+        "description": "Allegedly hypnotizes victims to walk onto trestle",
+        "frequency": "legendary",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Voice mimicry",
+        "description": "Mimics voices to lure victims onto bridge",
+        "frequency": "legendary",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Weapon use",
+        "description": "Carries bloody axe to chase victims onto trestle",
+        "frequency": "legendary",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "any",
+      "disposition": "hostile",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "railroad trestle",
+        "Pope Lick Creek area",
+        "bridge structure"
+      ],
+      "diet": "unknown",
+      "patterns": [
+        "Lures people onto active railroad trestle",
+        "Uses various methods to attract victims",
+        "Associated with train deaths"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Pope Lick Creek railroad trestle, Louisville, Kentucky",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Kentucky",
+        "Louisville area",
+        "Pope Lick Creek"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Pope Lick Trestle",
+        "location": {
+          "description": "Railroad trestle over Pope Lick Creek",
+          "country": "United States",
+          "region": "Kentucky",
+          "coordinates": {
+            "latitude": 38.1450,
+            "longitude": -85.6269
+          }
+        },
+        "sighting_count": 0,
+        "peak_period": "Ongoing legend",
+        "notes": "Site of multiple real deaths from trespassing; active railroad bridge"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Local oral tradition"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Ongoing",
+          "description": "Legend continues to attract trespassers resulting in deaths"
+        }
+      ],
+      "seasonal_patterns": "None known"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Kentucky urban legend, possibly originating in mid-20th century",
+      "earliest_accounts": "Unknown, passed through oral tradition",
+      "folklore_connections": "Related to goat-man legends and satyr mythology; fears of railroad dangers"
+    },
+    "timeline": [
+      {
+        "date": "Unknown origin",
+        "event": "Legend emerges",
+        "significance": "Pope Lick Monster legend becomes established in Louisville folklore",
+        "source": "Oral tradition"
+      },
+      {
+        "date": "1987",
+        "event": "First documented death",
+        "significance": "First known death of person on trestle while seeking monster",
+        "source": "News reports"
+      },
+      {
+        "date": "Various dates",
+        "event": "Additional deaths",
+        "significance": "Multiple people killed by trains while trespassing on active trestle",
+        "source": "News reports, police records"
+      }
+    ],
+    "modern_era": "The legend persists in modern times, continuing to attract curious trespassers despite warning signs, fencing, and publicity about the dangers. The phenomenon represents a unique and tragic case where an urban legend directly causes real deaths."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0,
+      "date_range": {
+        "earliest": "Unknown",
+        "latest": "Unknown"
+      }
+    },
+    "notable": [],
+    "database_path": null
+  },
+
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Reincarnated Farmer",
+        "description": "Legend claims creature is a farmer reincarnated as goat-man",
+        "proponents": ["Local folklore"],
+        "evidence_cited": ["None"]
+      },
+      {
+        "name": "Satanic Ritual Victim",
+        "description": "Theory that creature was victim of Satanic ritual",
+        "proponents": ["Urban legend variants"],
+        "evidence_cited": ["None"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Pure Urban Legend",
+        "description": "No actual creature; legend created as cautionary tale or for entertainment",
+        "proponents": ["Folklorists", "Skeptics"],
+        "evidence_cited": ["No credible sightings", "Zero physical evidence", "Common urban legend tropes"]
+      },
+      {
+        "name": "Escaped Circus Animal",
+        "description": "Legend originated from escaped circus freak or exotic animal",
+        "proponents": ["Some legend variants"],
+        "evidence_cited": ["Historical circus route through area (claimed)"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Complete Fabrication",
+        "description": "Entirely fictional legend with no basis in any real events",
+        "proponents": ["Skeptical investigators"],
+        "evidence_cited": ["Zero credible sightings", "No historical basis", "Obvious folklore motifs"]
+      },
+      {
+        "name": "Railroad Safety Mythology",
+        "description": "Legend may have originated as cautionary tale about railroad trestle dangers",
+        "proponents": ["Folklorists"],
+        "evidence_cited": ["Trestle is genuinely dangerous", "Legend focuses on luring people onto tracks"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [
+        "Various origin stories (circus freak, farmer, Satanic victim)",
+        "Tales of people being lured onto trestle",
+        "Warning stories about trespassing deaths"
+      ],
+      "beliefs": "Local legend used to explain trestle deaths and warn about dangers"
+    },
+    "indigenous": {
+      "cultures": [],
+      "significance": "Not associated with indigenous traditions",
+      "sensitivity_note": "Modern urban legend",
+      "respect_guidelines": "Standard research protocols"
+    },
+    "popular_culture": {
+      "literature": [
+        "Various urban legend collections"
+      ],
+      "film_tv": [
+        "The Pope Lick Monster (2014 short film)",
+        "Various documentary features on dangerous urban legends"
+      ],
+      "games": [],
+      "other": [
+        "Warning signs at trestle",
+        "Local news coverage of deaths",
+        "Safety campaigns by authorities"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "No cryptozoological research; authorities focus on preventing trespass and deaths"
+  },
+
+  "sources": [
+    {
+      "id": "news-reports-deaths",
+      "type": "news",
+      "title": "Various news reports of trestle deaths",
+      "date": "1987-present",
+      "description": "Multiple news reports documenting deaths on Pope Lick trestle"
+    }
+  ]
+}
