@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/pope-lick-monster",
     "maintainers": [
       {
@@ -16,111 +16,300 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "pope-lick-monster",
     "name": "Pope Lick Monster",
-    "aliases": [],
-    "category": "CRYPTID_/_URBAN_LEGEND",
-    "subcategory": "Satyr-like",
+    "aliases": [
+      { "name": "Goatman", "region": "Louisville, Kentucky, USA", "meaning": "Colloquial name for the part-man, part-goat figure" },
+      { "name": "The Sheepman", "region": "Louisville, Kentucky, USA" },
+      { "name": "Pope Lick Goat Man", "region": "Louisville, Kentucky, USA" }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Urban-legend cryptid (human-goat hybrid)",
     "tags": [
-      "folklore",
-      "mythology"
+      "urban-legend",
+      "cryptid",
+      "humanoid",
+      "goat",
+      "kentucky",
+      "louisville",
+      "trestle",
+      "siren-figure",
+      "lure"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Pope Lick Monster is an urban legend from Louisville, Kentucky, centered on a railroad trestle over Pope Lick Creek.",
-      "full": "The Pope Lick Monster is an urban legend from Louisville, Kentucky, centered on a railroad trestle over Pope Lick Creek. Described as a human-goat hybrid with a human body, goat head, horns, and fur-covered legs, the creature allegedly lures people onto the active train trestle using hypnosis, voice mimicry, or by chasing them with a bloody axe."
+      "summary": "An urban-legend cryptid said to inhabit the Norfolk Southern railway trestle over Pope Lick Creek in the Fisherville neighborhood of Louisville, Kentucky. Described as a part-man, part-goat (and sometimes part-sheep) creature that lures trespassers onto the active trestle.",
+      "full": "The Pope Lick Monster is a Louisville, Kentucky urban legend centered on the Norfolk Southern Railway trestle that crosses Pope Lick Creek in the Fisherville neighborhood east of the city. Witnesses and storytellers describe a creature that is part-man and part-goat (sometimes also described as part-sheep), with a human-like body, fur-covered legs, cloven hooves, horns, and a deformed humanoid face. Variant accounts attribute to it the ability to mimic human voices, a hypnotic or siren-like lure, and in more lurid retellings a bloodied axe with which it chases trespassers. The legend's mortal danger is the trestle itself: 90 feet tall, 772 feet long, and carrying active freight rail. Multiple deaths and serious injuries since the 1980s have been associated with people climbing the trestle in connection with the legend, including 17-year-old Jack 'J.C.' Bahm II in 1988, 26-year-old Roquel Bain in April 2016, and 15-year-old Savanna Bright in May 2019. The legend was popularized by filmmaker Ron Schildknecht's 1988 short film 'The Legend of the Pope Lick Monster' and has appeared in regional television features and documentaries on cryptids."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Named for Pope Lick Creek, the small tributary of Floyds Fork beneath the railroad trestle in eastern Jefferson County, Kentucky. 'Pope Lick' itself derives from a salt lick on land owned by the Pope family in early Kentucky settlement.",
+      "meaning": "'Pope Lick Monster' simply localizes the legend to its trestle; 'Goatman' refers to the satyr-like body plan",
+      "first_use": "The legend's modern form was widely popularized after Ron Schildknecht's 1988 short film 'The Legend of the Pope Lick Monster'"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "CRYPTID_/_URBAN_LEGEND",
-      "type": "Satyr-like",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "CRYPTID",
+      "type": "Humanoid / hybrid",
+      "subtype": "Goat-man (satyr-like)",
+      "variant": "Kentucky urban legend"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "goatman-of-maryland", "name": "Goatman (Prince George's County, Maryland)", "relationship": "similar", "description": "Maryland goat-man urban legend with comparable hybrid description" },
+      { "id": "lake-worth-monster", "name": "Lake Worth Monster", "relationship": "similar", "description": "Texas goat-man / scaled bipedal cryptid from 1969" },
+      { "id": "satyr", "name": "Satyr", "relationship": "related", "description": "Classical Greek goat-legged forest figure to which the description is often compared" },
+      { "id": "jersey-devil", "name": "Jersey Devil", "relationship": "similar", "description": "Hooved, horned, regional cryptid of the eastern US" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.6, "max": 2.0, "unit": "meters", "confidence": "low" },
+      "coloration": ["brown", "grey", "off-white"],
+      "features": [
+        { "feature": "Goat or sheep legs", "description": "Fur-covered legs ending in cloven hooves", "frequency": "always" },
+        { "feature": "Human-like torso and arms", "description": "Bipedal humanoid upper body", "frequency": "always" },
+        { "feature": "Horns", "description": "Short to long curving horns on a goat- or sheep-like head", "frequency": "always" },
+        { "feature": "Deformed humanoid face", "description": "Some accounts emphasize a distorted, alligator-skinned, or partly human face rather than a fully animal head", "frequency": "common" },
+        { "feature": "Bloody axe (in some retellings)", "description": "Carried in lurid teen-camp variants of the legend", "frequency": "occasional" }
+      ],
+      "morphology": "Satyr-like hybrid body plan: bipedal with human-style torso and arms, goat- or sheep-style hindquarters and head."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Voice mimicry", "description": "Imitates human voices to draw victims onto the trestle", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Hypnotic or siren-like lure", "description": "Compels people to climb the trestle as a train approaches", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Leap onto vehicles", "description": "In one variant, drops from the trestle onto cars or hangs from the side", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["railroad trestle", "wooded creek valley", "rural-urban fringe"],
+      "diet": "Not specified in the legend",
+      "patterns": [
+        "Tied exclusively to the Norfolk Southern trestle over Pope Lick Creek",
+        "Reported during late-night and Halloween-season visits by trespassers",
+        "Legend is invoked retroactively after trestle injuries and deaths"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Strictly local urban legend confined to the Pope Lick Creek trestle in the Fisherville neighborhood of eastern Louisville, Kentucky.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Kentucky", "Louisville metropolitan area", "Fisherville", "Jefferson County"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Pope Lick Trestle",
+        "location": {
+          "description": "Norfolk Southern Railway trestle over Pope Lick Creek, Fisherville",
+          "country": "United States",
+          "region": "Kentucky",
+          "coordinates": { "latitude": 38.1919, "longitude": -85.4878 }
+        },
+        "peak_period": "1988–present",
+        "notes": "The trestle is approximately 90 ft (27 m) tall and 772 ft (235 m) long over Pope Lick Creek; it carries active freight traffic and is the focal point of all reports."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1988",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Schildknecht, R. (1988), 'The Legend of the Pope Lick Monster'"
+      },
+      "peak_activity_periods": [
+        { "period": "1988–present", "description": "Modern era of the legend, anchored to the 1988 short film and ongoing trespass incidents" }
+      ],
+      "seasonal_patterns": "Most associated incidents occur in summer evenings and around Halloween."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The legend is a 20th-century American urban legend, layered onto an older folk landscape of trestle dares, 'goatman' figures, and rural Kentucky storytelling.",
+      "earliest_accounts": "Oral tradition in Louisville from at least the late 20th century; first widely documented in the 1988 short film by Ron Schildknecht.",
+      "folklore_connections": "Connected to the wider American 'goatman' urban-legend complex (e.g. Maryland's Goatman, Lake Worth Monster) and ultimately to satyr motifs from classical mythology."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1988-12-29", "event": "Premiere of Ron Schildknecht's 16-minute short film 'The Legend of the Pope Lick Monster' at the Uptown Theater in Louisville", "significance": "Cemented the modern form of the legend in regional culture", "source": "Schildknecht, R. (1988); Louisville-area press coverage" },
+      { "date": "1988", "event": "Death of 17-year-old Jack 'J.C.' Charles Bahm II, struck by a train on the Pope Lick trestle", "significance": "Earliest documented fatality associated with trestle trespass tied to the legend", "source": "Wikipedia: Pope Lick Monster (citing Louisville news coverage)" },
+      { "date": "1994", "event": "Adult man killed by a train after his ATV overturned and trapped him on the trestle", "significance": "Ongoing pattern of fatal trestle incidents", "source": "Wikipedia: Pope Lick Monster" },
+      { "date": "2000", "event": "19-year-old man fell to his death from the trestle after encountering a train", "significance": "Continued fatal trespass incidents", "source": "Wikipedia: Pope Lick Monster" },
+      { "date": "2016-04-23", "event": "26-year-old Ohio tourist Roquel Bain killed by a train on the trestle while looking for the Pope Lick Monster; her boyfriend survived by hanging from the side", "significance": "Most-cited modern fatality; revived calls for fencing and signage", "source": "WHAS-11 / WLKY Louisville coverage" },
+      { "date": "2019-05-26", "event": "15-year-old Savanna Bright killed on the trestle; companion Kaylee Keeling survived", "significance": "Reignited public-safety advocacy by victims' families", "source": "WHAS-11 Louisville coverage" }
+    ],
+    "modern_era": "The Pope Lick Monster legend persists as a high-profile example of an urban legend with real-world consequences. Norfolk Southern, Louisville Metro Government, and the Parklands of Floyds Fork have repeatedly warned the public against trespass on the trestle, and victims' families have campaigned for additional fencing and warning signage. The legend is regularly revisited in regional news features and US cryptid documentaries."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1988", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "pope-lick-monster-incident-1988-bahm",
+        "name": "Death of Jack 'J.C.' Bahm II on the trestle",
+        "date": { "value": "1988-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Pope Lick Trestle, Fisherville, Louisville, Kentucky",
+          "country": "United States",
+          "region": "Kentucky",
+          "locality": "Jefferson County",
+          "coordinates": { "latitude": 38.1919, "longitude": -85.4878, "precision": "approximate" }
+        },
+        "witnesses": { "count": 2, "types": ["Teen companions"], "credibility_factors": ["Reported in local news", "Body recovered from trestle"] },
+        "description": "17-year-old Jack 'J.C.' Charles Bahm II was struck and killed by a train while on the Pope Lick trestle; a companion was injured. Local news coverage and later retrospectives connected the incident to the Pope Lick Monster legend.",
+        "credibility": { "rating": "high", "factors": ["Documented fatality", "Local news coverage"], "notes": "Treated as a real-world tragedy connected to legend-tripping rather than as a paranormal sighting." },
+        "sources": ["Wikipedia: Pope Lick Monster"],
+        "featured": true
+      },
+      {
+        "id": "pope-lick-monster-incident-2016-bain",
+        "name": "Death of Roquel Bain on the trestle",
+        "date": { "value": "2016-04-23", "precision": "exact" },
+        "location": {
+          "description": "Pope Lick Trestle, Fisherville, Louisville, Kentucky",
+          "country": "United States",
+          "region": "Kentucky",
+          "locality": "Jefferson County",
+          "coordinates": { "latitude": 38.1919, "longitude": -85.4878, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Boyfriend (survivor)"], "credibility_factors": ["Police and rail-company report", "Ongoing local news coverage"] },
+        "description": "26-year-old Ohio tourist Roquel Bain was struck and killed by a train while on the trestle, having traveled to Louisville specifically to look for the Pope Lick Monster. Her boyfriend survived by hanging from the trestle's edge.",
+        "credibility": { "rating": "high", "factors": ["Verified police investigation", "Multiple independent local-news outlets"], "notes": "The most widely reported real-world incident tied to the legend." },
+        "sources": ["WHAS-11 Louisville coverage", "WLKY Louisville coverage"],
+        "featured": true
+      },
+      {
+        "id": "pope-lick-monster-incident-2019-bright",
+        "name": "Death of Savanna Bright on the trestle",
+        "date": { "value": "2019-05-26", "precision": "exact" },
+        "location": {
+          "description": "Pope Lick Trestle, Fisherville, Louisville, Kentucky",
+          "country": "United States",
+          "region": "Kentucky",
+          "locality": "Jefferson County",
+          "coordinates": { "latitude": 38.1919, "longitude": -85.4878, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Teen companion (survivor, Kaylee Keeling)"], "credibility_factors": ["Police and EMS response", "Local news coverage"] },
+        "description": "15-year-old Savanna Bright was killed on the trestle; her companion Kaylee Keeling survived with serious injuries. The incident reignited family-led advocacy for stronger fencing and signage at the trestle.",
+        "credibility": { "rating": "high", "factors": ["Verified by police and EMS", "Sustained local news coverage"], "notes": "Most recent widely reported fatality linked to legend-tripping at the site." },
+        "sources": ["WHAS-11 Louisville coverage"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
-    "video": [],
+    "video": [
+      {
+        "id": "pope-lick-monster-evidence-schildknecht-1988",
+        "type": "short film",
+        "name": "The Legend of the Pope Lick Monster (Schildknecht)",
+        "date": "1988-12-29",
+        "description": "16-minute fictional short film by Louisville filmmaker Ron Schildknecht that premiered at the Uptown Theater and is widely credited with cementing the modern legend.",
+        "status": "verified",
+        "analysis": "Acknowledged work of fiction, not a documentary or evidentiary record; central artifact of the legend's transmission.",
+        "source": "Schildknecht, R. (1988)"
+      }
+    ],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "pope-lick-monster-evidence-mma-feature",
+        "type": "television feature",
+        "name": "Monsters and Mysteries in America: Pope Lick Monster segment",
+        "description": "Pope Lick Monster segment in the Destination America cryptid series 'Monsters and Mysteries in America'.",
+        "status": "unverified",
+        "analysis": "Popular-television treatment; useful as cultural documentation rather than as evidence of the cryptid.",
+        "source": "Destination America"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Surviving cryptid hybrid",
+        "description": "The most literal interpretation: a flesh-and-blood human-goat hybrid haunts the Pope Lick trestle and uses voice and lure abilities to bring victims onto the rails.",
+        "proponents": ["Local oral tradition"],
+        "evidence_cited": ["Cluster of unexplained injuries and deaths at the trestle", "Persistent local sightings reported in popular media"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Pure urban legend / legend-tripping",
+        "description": "The Pope Lick Monster is a contemporary urban legend whose only physical effect is the dangerous behavior it inspires; the trestle is the real hazard, not a cryptid.",
+        "proponents": ["Folklorists studying contemporary legend", "Local news commentary"],
+        "evidence_cited": ["Pattern of trespass injuries and deaths on the active trestle", "Origins traceable to a 1988 fictional short film and pre-existing 'goatman' urban-legend complex"]
+      },
+      {
+        "name": "Composite of older goat-man legends",
+        "description": "The figure recombines elements from regional 'goatman' urban legends (Maryland, Texas) and classical satyr imagery, retrofitted onto a locally famous railway trestle.",
+        "proponents": ["Folklorists of American urban legend"],
+        "evidence_cited": ["Goatman parallels in Maryland and Lake Worth, Texas", "Ron Schildknecht's open authorship of the 1988 short film"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Louisville teen 'legend-tripping' to the Pope Lick trestle",
+        "Halloween-season retellings in Kentuckiana media"
+      ],
+      "stories": [
+        "The creature mimicking a voice from beneath the trestle",
+        "The bloody-axe variant told around campfires",
+        "The 'circus escape' origin story for the goat-man"
+      ],
+      "beliefs": "Most local residents treat the legend as fiction; safety officials emphasize that the documented harm comes from trespass on an active rail trestle."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Various regional articles in the Louisville Courier-Journal and LEO Weekly"
+      ],
+      "film_tv": [
+        "The Legend of the Pope Lick Monster — Ron Schildknecht (1988)",
+        "Monsters and Mysteries in America (Destination America)"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Subject of recurring local-news features",
+        "Frequently cited in Kentucky and US cryptid lists"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Ron Schildknecht", "affiliation": "Independent filmmaker (Louisville)", "contribution": "Author of the 1988 short film that consolidated the modern Pope Lick Monster legend", "period": "1988" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No active scientific or cryptozoological investigation; ongoing public-safety advocacy from victims' families and Norfolk Southern's continued enforcement against trestle trespass."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-pope-lick-monster", "type": "website", "title": "Pope Lick Monster", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pope_Lick_Monster", "accessed": "2026-05-07" },
+    { "id": "atlas-obscura-pope-lick", "type": "website", "title": "Pope Lick Trestle Bridge", "publication": "Atlas Obscura", "url": "https://www.atlasobscura.com/places/pope-lick-trestle-bridge", "accessed": "2026-05-07" },
+    { "id": "schildknecht-1988", "type": "documentary", "title": "The Legend of the Pope Lick Monster", "authors": ["Ron Schildknecht"], "date": "1988", "url": "https://ronschildknecht.com/thelegendofthepopelickmonster", "accessed": "2026-05-07" },
+    { "id": "whas11-pope-lick-2019", "type": "news", "title": "Pope Lick Legend: Loved ones of those who died on trestle push for change", "publication": "WHAS-11 (Louisville)", "url": "https://www.whas11.com/article/news/local/push-changes-on-deadly-pope-lick-trestle/417-1c502a3d-8c63-4553-a962-d7ba75146bce", "accessed": "2026-05-07" },
+    { "id": "parklands-pope-lick", "type": "website", "title": "The Pope Lick Monster", "publication": "The Parklands of Floyds Fork", "url": "https://theparklands.org/the-pope-lick-monster/", "accessed": "2026-05-07" }
+  ]
 }
